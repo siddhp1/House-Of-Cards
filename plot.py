@@ -4,7 +4,7 @@ import pandas as pd
 # Get data from results file
 df = pd.read_csv('results.csv')
 
-# Plotting a histogram for the 'Number of winning cards' column with density=True
+# Plotting a histogram for the 'Number of winning cards' column
 counts, bins, _ = plt.hist(
     df['Number of winning cards'],
     bins=range(0, df['Number of winning cards'].max() + 2),
