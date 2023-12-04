@@ -7,7 +7,7 @@ WINNING_CARDS = ["AS", "2S", "3S", "4S", "5S", "6S"]
 winning_cards = pydealer.Stack()
 winning_cards.add(WINNING_CARDS)
 
-# Payout structure of game
+# Payout structure of game (winning cards : prize money)
 PAYOUT_STRUCTURE = {
     0:0,
     1:20000,
