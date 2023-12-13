@@ -19,7 +19,7 @@ PAYOUT_STRUCTURE = {
 }
 
 # Number of iterations of game simulation
-ITERATIONS = 100000
+ITERATIONS = 99970
 
 def play():
     # Simulate spinners
